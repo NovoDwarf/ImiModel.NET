@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net11.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <RootNamespace>NovoDwarf.Modeling.EventDriven</RootNamespace>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="Messager.NET" Version="1.0.0" />
+    </ItemGroup>
+
+</Project>

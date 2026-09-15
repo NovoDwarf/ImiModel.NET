@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Examples/" />
+  <Folder Name="/Sources/">
+    <Project Path="Sources/ImiModel.NET.Core/ImiModel.NET.Core.csproj" />
+    <Project Path="Sources/ImiModel.NET.DeltaT/ImiModel.NET.DeltaT.csproj" />
+    <Project Path="Sources/ImiModel.NET.EventDriven/ImiModel.NET.EventDriven.csproj" />
+    <Project Path="Sources/ImiModel.NET.Logging/ImiModel.NET.Logging.csproj" />
+  </Folder>
+  <Folder Name="/Tests/" />
+</Solution>
