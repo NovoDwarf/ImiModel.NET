@@ -1,7 +1,7 @@
-﻿using Modeling.Core.Models.Abstracts.Nodes;
-using Modeling.Core.Models.Abstracts.Options;
+﻿using ImiModel.NET.Core.Models.Abstracts.Nodes;
+using ImiModel.NET.Core.Models.Abstracts.Options;
 
-namespace NovoDwarf.Modeling.EventDriven.Models.Nodes;
+namespace ImiModel.NET.EventDriven.Models.Nodes;
 
 public sealed class Empty : EmptyBase
 {

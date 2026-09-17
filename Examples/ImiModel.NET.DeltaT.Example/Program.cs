@@ -1,10 +1,10 @@
-﻿using Mathematics.Probability.Distributions.Univariate.Continuous.Semibounded;
-using Modeling.Core.Extensions;
-using Modeling.Core.Models.Abstracts.Options;
-using NovoDwarf.Modeling.DeltaT.Models.Nodes;
-using NovoDwarf.Modeling.DeltaT.Models.Simulations;
+﻿using ImiModel.NET.Core.Extensions;
+using ImiModel.NET.Core.Models.Abstracts.Options;
+using ImiModel.NET.DeltaT.Models.Nodes;
+using ImiModel.NET.DeltaT.Models.Simulations;
+using MathForge.Probability.Distributions.Univariate.Continuous.Semibounded;
 
-namespace NovoDwarf.Modeling.DeltaT.Example;
+namespace ImiModel.NET.DeltaT.Example;
 
 internal static class Program
 {

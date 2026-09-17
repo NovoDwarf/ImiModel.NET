@@ -1,7 +1,7 @@
-using Modeling.Core.Models.Base;
-using NovoDwarf.Modeling.Logging.Models;
+using ImiModel.NET.Core.Models.Base;
+using ImiModel.NET.Logging.Models;
 
-namespace Modeling.Core.EX;
+namespace ImiModel.NET.Core;
 
 public class SimulationContext
 {

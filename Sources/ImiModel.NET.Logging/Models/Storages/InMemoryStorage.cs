@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
-using NovoDwarf.Modeling.Logging.Interfaces;
+using ImiModel.NET.Logging.Interfaces;
 
-namespace NovoDwarf.Modeling.Logging.Models.Storages;
+namespace ImiModel.NET.Logging.Models.Storages;
 
 public class InMemoryStorage : IMetricStorage
 {

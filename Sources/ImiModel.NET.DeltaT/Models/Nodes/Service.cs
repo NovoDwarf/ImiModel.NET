@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics;
-using Modeling.Core.Models.Abstracts.Nodes;
-using Modeling.Core.Models.Abstracts.Options;
-using Modeling.Core.Models.Base;
+using ImiModel.NET.Core.Models.Abstracts.Nodes;
+using ImiModel.NET.Core.Models.Abstracts.Options;
+using ImiModel.NET.Core.Models.Base;
 
-namespace NovoDwarf.Modeling.DeltaT.Models.Nodes;
+namespace ImiModel.NET.DeltaT.Models.Nodes;
 
 [DebuggerDisplay("Service [{Id}]")]
 public sealed class Service : ServiceBase

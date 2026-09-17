@@ -1,4 +1,4 @@
-﻿namespace Modeling.Core.Models.Base;
+﻿namespace ImiModel.NET.Core.Models.Base;
 
 public class Request
 {

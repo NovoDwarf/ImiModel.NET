@@ -1,6 +1,6 @@
-﻿using NovoDwarf.Modeling.Logging.Interfaces;
+﻿using ImiModel.NET.Logging.Interfaces;
 
-namespace NovoDwarf.Modeling.Logging.Models.Managers;
+namespace ImiModel.NET.Logging.Models.Managers;
 
 public class SinkManager
 {

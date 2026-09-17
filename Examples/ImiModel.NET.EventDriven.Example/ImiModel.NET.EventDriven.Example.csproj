@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <OutputType>Exe</OutputType>
         <TargetFrameworks>$(ProjectTargetFrameworks)</TargetFrameworks>
+        <IsPackable>false</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="ImiModel.NET.Core" Version="1.0.0" />
-        <PackageReference Include="Newtonsoft.Json" Version="13.0.5-beta1" />
+      <PackageReference Include="ImiModel.NET.EventDriven" Version="1.0.0" />
     </ItemGroup>
     
 </Project>

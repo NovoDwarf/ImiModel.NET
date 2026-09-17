@@ -1,9 +1,9 @@
-﻿using NovoDwarf.Modeling.Logging.Interfaces;
-using NovoDwarf.Modeling.Logging.Models.Factories;
-using NovoDwarf.Modeling.Logging.Models.Managers;
-using NovoDwarf.Modeling.Logging.Models.Storages;
+﻿using ImiModel.NET.Logging.Interfaces;
+using ImiModel.NET.Logging.Models.Factories;
+using ImiModel.NET.Logging.Models.Managers;
+using ImiModel.NET.Logging.Models.Storages;
 
-namespace NovoDwarf.Modeling.Logging.Models;
+namespace ImiModel.NET.Logging.Models;
 
 public sealed class MetricCollector
 {

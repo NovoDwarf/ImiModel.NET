@@ -1,10 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net11.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        <LangVersion>latest</LangVersion>
+        <TargetFrameworks>$(ProjectTargetFrameworks)</TargetFrameworks>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ImiModel.NET.Logging" Version="1.0.0" />
+      <PackageReference Include="MathForge.Core" Version="1.0.0" />
+      <PackageReference Include="MathForge.Probability" Version="1.0.0" />
+    </ItemGroup>
     
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace Modeling.Core.Models.Base;
+﻿namespace ImiModel.NET.Core.Models.Base;
 
 public record Range(double Min, double Max, bool IncludeMin = true, bool IncludeMax = false)
 {

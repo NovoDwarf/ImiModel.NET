@@ -1,10 +1,10 @@
-﻿using Mathematics.Probability.Distributions.Univariate.Continuous.Semibounded;
-using Modeling.Core.Extensions;
-using Modeling.Core.Models.Abstracts.Options;
-using NovoDwarf.Modeling.EventDriven.Models.Nodes;
-using NovoDwarf.Modeling.EventDriven.Models.Simulations;
+﻿using ImiModel.NET.Core.Extensions;
+using ImiModel.NET.Core.Models.Abstracts.Options;
+using ImiModel.NET.EventDriven.Models.Nodes;
+using ImiModel.NET.EventDriven.Models.Simulations;
+using MathForge.Probability.Distributions.Univariate.Continuous.Semibounded;
 
-namespace NovoDwarf.Modeling.EventDriven.Example;
+namespace ImiModel.NET.EventDriven.Example;
 
 internal static class Program
 {

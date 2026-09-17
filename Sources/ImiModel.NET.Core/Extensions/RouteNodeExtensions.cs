@@ -1,6 +1,6 @@
-﻿using Modeling.Core.Models.Abstracts.Commons.Nodes;
+﻿using ImiModel.NET.Core.Models.Abstracts.Commons.Nodes;
 
-namespace Modeling.Core.Extensions;
+namespace ImiModel.NET.Core.Extensions;
 
 public static class RouteNodeExtensions
 {

@@ -1,11 +1,11 @@
 using System.Diagnostics;
-using Modeling.Core.EX;
-using Modeling.Core.Models.Abstracts.Nodes;
-using Modeling.Core.Models.Abstracts.Options;
-using Modeling.Core.Models.Base;
-using NovoDwarf.Modeling.EventDriven.Models.Simulations;
+using ImiModel.NET.Core;
+using ImiModel.NET.Core.Models.Abstracts.Nodes;
+using ImiModel.NET.Core.Models.Abstracts.Options;
+using ImiModel.NET.Core.Models.Base;
+using ImiModel.NET.EventDriven.Models.Simulations;
 
-namespace NovoDwarf.Modeling.EventDriven.Models.Nodes;
+namespace ImiModel.NET.EventDriven.Models.Nodes;
 
 [DebuggerDisplay("Service [{Id}]")]
 public sealed class Service : ServiceBase

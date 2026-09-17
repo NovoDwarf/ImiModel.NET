@@ -1,9 +1,8 @@
-using Modeling.Core.EX;
-using Modeling.Core.Interfaces;
-using Modeling.Core.Models.Abstracts.Commons.Options;
-using Modeling.Core.Models.Base;
+using ImiModel.NET.Core.Interfaces;
+using ImiModel.NET.Core.Models.Abstracts.Commons.Options;
+using ImiModel.NET.Core.Models.Base;
 
-namespace Modeling.Core.Models.Abstracts.Commons.Nodes;
+namespace ImiModel.NET.Core.Models.Abstracts.Commons.Nodes;
 
 /// <summary>
 ///     Base class for all nodes.

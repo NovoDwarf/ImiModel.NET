@@ -1,7 +1,7 @@
-﻿using Mathematics.Core.Base.Entities;
-using Modeling.Core.Models.Abstracts.Commons.Options;
+﻿using ImiModel.NET.Core.Models.Abstracts.Commons.Options;
+using MathForge.Core.Base.Entities;
 
-namespace Modeling.Core.Models.Abstracts.Commons.Nodes;
+namespace ImiModel.NET.Core.Models.Abstracts.Commons.Nodes;
 
 public abstract class DistributionNode : RouteNode
 {

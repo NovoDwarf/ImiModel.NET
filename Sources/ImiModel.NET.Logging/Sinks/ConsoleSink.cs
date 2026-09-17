@@ -1,7 +1,7 @@
-﻿using NovoDwarf.Modeling.Logging.Interfaces;
-using NovoDwarf.Modeling.Logging.Models;
+﻿using ImiModel.NET.Logging.Interfaces;
+using ImiModel.NET.Logging.Models;
 
-namespace NovoDwarf.Modeling.Logging.Sinks;
+namespace ImiModel.NET.Logging.Sinks;
 
 public class ConsoleSink : IMetricSink
 {

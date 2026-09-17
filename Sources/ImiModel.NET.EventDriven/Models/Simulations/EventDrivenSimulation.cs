@@ -1,9 +1,9 @@
-using Modeling.Core.EX;
-using Modeling.DeltaT.Algorithm.Sinks;
-using NovoDwarf.Modeling.EventDriven.Models.Nodes;
-using NovoDwarf.Modeling.Logging.Models;
+using ImiModel.NET.Core;
+using ImiModel.NET.Core.Models.Sinks;
+using ImiModel.NET.EventDriven.Models.Nodes;
+using ImiModel.NET.Logging.Models;
 
-namespace NovoDwarf.Modeling.EventDriven.Models.Simulations;
+namespace ImiModel.NET.EventDriven.Models.Simulations;
 
 public class EventDrivenSimulation : Simulation
 {

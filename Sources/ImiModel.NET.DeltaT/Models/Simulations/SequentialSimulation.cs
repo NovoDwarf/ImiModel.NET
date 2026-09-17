@@ -1,8 +1,8 @@
-﻿using Modeling.Core.EX;
-using Modeling.DeltaT.Algorithm.Sinks;
-using NovoDwarf.Modeling.Logging.Models;
+﻿using ImiModel.NET.Core;
+using ImiModel.NET.Core.Models.Sinks;
+using ImiModel.NET.Logging.Models;
 
-namespace NovoDwarf.Modeling.DeltaT.Models.Simulations;
+namespace ImiModel.NET.DeltaT.Models.Simulations;
 
 public class SequentialSimulation : Simulation
 {

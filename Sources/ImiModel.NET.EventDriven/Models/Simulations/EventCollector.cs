@@ -1,11 +1,7 @@
-using Modeling.Core.EX;
+using ImiModel.NET.Core;
 
-namespace NovoDwarf.Modeling.EventDriven.Models.Simulations;
+namespace ImiModel.NET.EventDriven.Models.Simulations;
 
-/// <summary>
-///     Обёртка над обработчиком события симуляции.
-///     Держит время наступления события и делегат, который его обрабатывает.
-/// </summary>
 public sealed class SimulationEvent
 {
 	public SimulationEvent(double timestamp, Action<SimulationContext, EventCollector> handler)
@@ -24,10 +20,6 @@ public sealed class SimulationEvent
 	}
 }
 
-/// <summary>
-///     Общий коллектора событий для событийно-ориентированной модели.
-///     Хранит события в приоритетной очереди по времени наступления.
-/// </summary>
 public sealed class EventCollector
 {
 	private readonly PriorityQueue<SimulationEvent, double> _queue = new();

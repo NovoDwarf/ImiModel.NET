@@ -1,9 +1,9 @@
 using System.Text;
-using NovoDwarf.Modeling.Logging.Interfaces;
-using NovoDwarf.Modeling.Logging.Models;
-using NovoDwarf.Modeling.Logging.Models.Events;
+using ImiModel.NET.Logging.Interfaces;
+using ImiModel.NET.Logging.Models;
+using ImiModel.NET.Logging.Models.Events;
 
-namespace Modeling.DeltaT.Algorithm.Sinks;
+namespace ImiModel.NET.Core.Models.Sinks;
 
 /*
  * TODO: rework this shit 'cause sink must be simple and generic

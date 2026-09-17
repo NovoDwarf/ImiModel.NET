@@ -1,4 +1,4 @@
-﻿namespace Modeling.Core.Models.Abstracts.Commons.Options;
+﻿namespace ImiModel.NET.Core.Models.Abstracts.Commons.Options;
 
 public class RouteOptions : StorageOptions
 {

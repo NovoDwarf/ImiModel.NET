@@ -1,6 +1,6 @@
-﻿using Modeling.Core.Models.Abstracts.Commons.Options;
+﻿using ImiModel.NET.Core.Models.Abstracts.Commons.Options;
 
-namespace Modeling.Core.Models.Abstracts.Options;
+namespace ImiModel.NET.Core.Models.Abstracts.Options;
 
 public class QueueOptions : RouteOptions
 {

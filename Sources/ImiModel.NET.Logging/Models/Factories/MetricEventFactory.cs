@@ -1,6 +1,6 @@
-﻿using NovoDwarf.Modeling.Logging.Models.Events;
+﻿using ImiModel.NET.Logging.Models.Events;
 
-namespace NovoDwarf.Modeling.Logging.Models.Factories;
+namespace ImiModel.NET.Logging.Models.Factories;
 
 public static class MetricEventFactory
 {

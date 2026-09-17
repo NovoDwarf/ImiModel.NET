@@ -1,7 +1,7 @@
-﻿using NovoDwarf.Modeling.Logging.Models;
-using NovoDwarf.Modeling.Logging.Sinks;
+﻿using ImiModel.NET.Logging.Models;
+using ImiModel.NET.Logging.Sinks;
 
-namespace NovoDwarf.Modeling.Logging.Ext;
+namespace ImiModel.NET.Logging.Extensions;
 
 public static class MetricCollectorExtensions
 {

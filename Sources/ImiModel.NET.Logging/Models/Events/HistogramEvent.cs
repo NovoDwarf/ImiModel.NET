@@ -1,7 +1,7 @@
-﻿using NovoDwarf.Modeling.Logging.Interfaces;
-using NovoDwarf.Modeling.Logging.Models.Base;
+﻿using ImiModel.NET.Logging.Interfaces;
+using ImiModel.NET.Logging.Models.Base;
 
-namespace NovoDwarf.Modeling.Logging.Models.Events;
+namespace ImiModel.NET.Logging.Models.Events;
 
 public sealed class HistogramEvent : BaseMetricEvent
 {

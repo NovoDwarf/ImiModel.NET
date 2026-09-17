@@ -1,6 +1,6 @@
-﻿using NovoDwarf.Modeling.Logging.Models;
+﻿using ImiModel.NET.Logging.Models;
 
-namespace NovoDwarf.Modeling.Logging.Interfaces;
+namespace ImiModel.NET.Logging.Interfaces;
 
 public interface IMetricSink
 {

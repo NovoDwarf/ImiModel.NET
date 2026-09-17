@@ -1,9 +1,9 @@
-using Modeling.Core.Models.Abstracts.Commons.Nodes;
-using Modeling.Core.Models.Abstracts.Nodes;
-using Modeling.Core.Models.Base;
-using NovoDwarf.Modeling.Logging.Models;
+using ImiModel.NET.Core.Models.Abstracts.Commons.Nodes;
+using ImiModel.NET.Core.Models.Abstracts.Nodes;
+using ImiModel.NET.Core.Models.Base;
+using ImiModel.NET.Logging.Models;
 
-namespace Modeling.Core.EX;
+namespace ImiModel.NET.Core;
 
 public abstract class Simulation
 {

@@ -1,9 +1,8 @@
-﻿using Modeling.Core.Interfaces;
-using Modeling.Core.Models.Abstracts.Commons.Options;
-using Modeling.Core.Models.Base;
-using NovoDwarf.Primitives.Interfaces;
+﻿using ImiModel.NET.Core.Interfaces;
+using ImiModel.NET.Core.Models.Abstracts.Commons.Options;
+using ImiModel.NET.Core.Models.Base;
 
-namespace Modeling.Core.Models.Abstracts.Commons.Nodes;
+namespace ImiModel.NET.Core.Models.Abstracts.Commons.Nodes;
 
 public abstract class StorageNode : NodeBase, IStorageNode
 {
@@ -17,6 +16,8 @@ public abstract class StorageNode : NodeBase, IStorageNode
 	/// <inheritdoc cref="IStorageNode.IsEmpty" />
 	public bool IsEmpty => Storage.Count == 0;
 
+	public int Count => Storage.Count;
+	
 	/// <inheritdoc cref="IStorageNode.Storage" />
 	protected IStorage<Request> Storage => _options.Storage;
 

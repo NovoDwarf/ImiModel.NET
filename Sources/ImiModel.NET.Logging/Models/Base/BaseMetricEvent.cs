@@ -1,6 +1,6 @@
-﻿using NovoDwarf.Modeling.Logging.Interfaces;
+﻿using ImiModel.NET.Logging.Interfaces;
 
-namespace NovoDwarf.Modeling.Logging.Models.Base;
+namespace ImiModel.NET.Logging.Models.Base;
 
 public abstract class BaseMetricEvent : IMetricEvent
 {

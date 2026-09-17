@@ -1,6 +1,6 @@
-﻿using Base_Range = Modeling.Core.Models.Base.Range;
+﻿using Base_Range = ImiModel.NET.Core.Models.Base.Range;
 
-namespace Modeling.Core.Models.Constants;
+namespace ImiModel.NET.Core.Models.Constants;
 
 public static class ParameterRanges
 {

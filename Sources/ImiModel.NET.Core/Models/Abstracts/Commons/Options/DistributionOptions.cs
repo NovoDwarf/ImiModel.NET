@@ -1,7 +1,7 @@
-﻿using Mathematics.Core.Base.Entities;
-using Mathematics.Probability.Distributions.Univariate.Continuous.Semibounded;
+﻿using MathForge.Core.Base.Entities;
+using MathForge.Probability.Distributions.Univariate.Continuous.Semibounded;
 
-namespace Modeling.Core.Models.Abstracts.Commons.Options;
+namespace ImiModel.NET.Core.Models.Abstracts.Commons.Options;
 
 public class DistributionOptions : RouteOptions
 {

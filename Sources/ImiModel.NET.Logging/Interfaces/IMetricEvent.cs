@@ -1,4 +1,4 @@
-﻿namespace NovoDwarf.Modeling.Logging.Interfaces;
+﻿namespace ImiModel.NET.Logging.Interfaces;
 
 public interface IMetricEvent
 {
